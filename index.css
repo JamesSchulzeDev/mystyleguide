@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 243, 243);
+    padding: 30px 100px;
+}
+
+.border {
+    border: 2px solid gray;
+    width: 1250px;
+    padding: 15px;
+}
+
+.colors {
+    display: flex;
+    flex-direction: row;
+}
+
+.colors div {
+    margin: 2px;
+    padding: 20px; 
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+
+.BoxBlue {
+    background-color: #2d5dcc;
+}
+
+.Gray {
+    background-color: #808080;
+}
+
+.Silver {
+    background-color: #C0C0C0;
+}
+
+.Navyblue {
+    background-color: #000080;
+}
+
+.font1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto {
+    text-decoration: underline;
+}
+
+.robotobold {
+    font-weight: bold;
+}
+
+.robotoitalic {
+    font-style: italic;
+}
+
+.font2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.poppins {
+    text-decoration: underline;
+}
+
+.poppinsbold {
+    font-weight: bold;
+}
+
+.poppinsitalic {
+    font-style: italic;
+}
+
+.font3 {
+    font-family: 'Merriweather', sans-serif;
+}
+
+.merriweather {
+    text-decoration: underline;
+}
+
+.merriweatherbold {
+    font-weight: bold;
+}
+
+.merriweatheritalic {
+    font-style: italic;
+}
+
+.fontstyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.subheading {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
